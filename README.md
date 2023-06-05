@@ -61,21 +61,35 @@ Procedure:
 Program:
 /*
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
-Developed by: Shakthi kumar
+
+Developed by: Shakthi kumar S
+
 RegisterNumber: 212222110043 
+
 */
 
 module file2(a,b,c,d,e,f,g,h,i);
+
 input a,b;
+
 output c,d,e,f,g,h,i;
+
 and (c,a,b);
+
 or (d,a,b);
+
 not (e,a);
+
 xor (f,a,b);
+
 nand (g,a,b);
+
 nor (h,a,b);
+
 xnor (i,a,b);
+
 endmodule
+
 
 Logic symbol & Truthtable
 
